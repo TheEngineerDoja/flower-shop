@@ -1,0 +1,56 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(250, 230, 245);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    
+}
+.left-section ul li{
+    display: inline-block;
+}
+.head-buttons{
+    margin-left: 35px;
+    background: transparent;
+    border: none;
+    color: rgb(127, 37, 73);
+}
+.right-section{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:35px;
+}
+.left-section a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons{
+    margin-right: 40px;
+    color: rgb(127, 37, 73);
+}
+.logo{
+    text-align: center;
+    color: rgb(127, 37, 73);
+    font-size: 28px;
+    margin-top: 18px;
+    font-family: Dela Gothic One;
+}
+

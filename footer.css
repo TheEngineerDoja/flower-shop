@@ -1,0 +1,91 @@
+body{
+    position: relative;
+}
+.footer{
+    background-color: palevioletred;
+    min-height: 100vh;
+    position: absolute;
+    
+}
+.foot{
+    margin-right: 100px;
+    margin-left: 100px;
+    color: rgb(127, 37, 73);
+    height: 1.4px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 300px;
+    padding-right: 300px;
+    column-gap: 30px;
+    margin-bottom: 150px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    padding-top: 180px;
+    gap: 60px;
+}
+.services-icons{
+    flex:1;
+    margin-top: 80px;
+    
+}
+
+.highlight{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-pic{
+    position:relative;
+}
+.icon{
+    /* filter: sepia(100%) hue-rotate(-60deg) saturate(500%) brightness(90%); */
+    /* filter: sepia(1) hue-rotate(240deg) saturate(5); */
+    filter: sepia(0) hue-rotate(0deg) saturate(0) brightness(0);
+    height: 80px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+.icon-text{
+    text-align: justify;
+    line-height: 1.6;
+}
+.title{
+    color: rgb(127, 37, 73);
+    font-family: Dela Gothic One;
+}
+.rose{
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+.bouquet{
+    margin-top: 30px;
+}
+.menu, .informations , .contact{
+    margin-top: 50px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.A a{
+    text-decoration: none;
+    color: black;
+    
+}
+.A, .B{
+    margin-bottom: 10px;
+}
+.C{
+    font-weight: 1000;
+}
+
+.B i{
+    margin-right: 8px;
+}

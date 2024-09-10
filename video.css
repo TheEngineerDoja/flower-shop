@@ -1,0 +1,148 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box{
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    
+}
+hr{
+    margin-bottom: 50px;
+    border: none;            /* Remove the default border */
+    height: 0.5px;             /* Adjust the thickness */
+    background-color:  rgb(127, 37, 73);
+}
+
+.flower-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:50px;
+    row-gap: 25px;
+    
+}
+
+@media (max-width:750px){
+    .footer-container,.flower-grid{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    
+}
+@media (min-width:751px) and (max-width:999px){
+    .footer-container,.flower-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+@media (min-width:1000px){
+    .footer-container,.flower-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+.video-container{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: lavenderblush;
+    box-shadow: 0.5px 0.5px 5px  rgb(127, 37, 73);
+    border-radius: 10px;
+    position: relative;
+}
+
+.flower-grid-head .p1{
+    display: inline-block;
+    margin-left: 40PX;
+    font-family: Dela Gothic One;
+    font-size: 22px;
+    color:rgb(127, 37, 73) ;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.flower-grid-head .p2 ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.p2{
+    margin-right: 20px;
+    font-size: 17px;
+}
+.flower-grid-head{
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flower-button{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.flower{
+    width: 100%;
+}
+.panier,.price{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Roboto Condensed;
+    font-weight: 500;
+}
+.panier{
+    border: 0.5px solid rgb(127, 37, 73);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+.bouquet-name{
+    text-align: center;
+    font-family: Roboto Condensed;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.panier i{
+    color: rgb(127, 37, 73);
+    font-size: 14px;
+    margin-left: 2px;
+    
+}
+.suite{
+    position: absolute;
+    font-size: 15px;
+    padding: 8px;
+    margin: 18px;
+    margin-right: 22px;
+    background-color: rgb(127, 37, 73);
+    color: white;
+    border: none;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    font-family: Roboto Condensed;
+    
+}
+.vertical {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vertical li {
+    padding: 4px;
+    border-right: 1px solid black; /* Vertical line */
+  }
+  
+  .vertical li:last-child {
+    border-right: none; /* Remove line for the last item */
+  }

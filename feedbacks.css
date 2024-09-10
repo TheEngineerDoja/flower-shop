@@ -1,0 +1,58 @@
+.feedbacks{
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr;
+    row-gap: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 100px;
+}
+.title-feed{
+    text-align: center;
+    font-family:Dela Gothic One ;
+    font-size: 50px;
+    color: rgb(127, 37, 73);
+}
+.feedback-review{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    background-color: lavenderblush;
+    padding: 20px;
+    /* border: 0.5px solid brown; */
+    box-shadow: 0.5px 0.5px 5px  rgb(127, 37, 73);
+    border-radius: 100px;
+}
+.user-pic{
+    width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 75px;
+}
+.text{
+    margin-left: 15px;
+    margin-right: 18px;
+}
+.bold{
+    font-weight: 600;
+}
+.name{
+    margin-bottom: 8px;
+    font-family: Dela Gothic One;
+    font-size: 16px;
+    color:  rgb(127, 37, 73);
+}
+.name i{
+    color:  rgb(127, 37, 73);
+    font-size: 12px;
+}
+.review{
+    text-align: justify;
+    line-height: 1.6;
+    font-family: Roboto Condensed;
+}
